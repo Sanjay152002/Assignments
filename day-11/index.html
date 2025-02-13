@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusPass</title>
+</head>
+
+<body>
+    <center><img src="./tsrtc.jpg" alt="logo" width="350">
+        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+        <h1>GENERAL BUSPASS APPLICATION</h1>
+    </center>
+    <form action="./application.html" method="get">
+
+        <fieldset>
+            <legend>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <div>
+                        <td>Appilcation Details</td>
+                    </div>
+                </table>
+            </legend>
+
+            <br>
+            <div>
+
+                <label for="name"> <b>Name</b></label>
+                <input type="text" name="name" id="name" pattern="[a-zA-Z]+" required title="enter name a-z,A-Z">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="fname"><b>Father's/Gaurdian's Name</b></label>
+                <input type="text" name="fathersname" id="fname" pattern="[a-zA-Z]+" title="enter name a-z,A-Z">
+            </div>
+            <br>
+            <div>
+                <label for="date"><b>Date of Birth</b></label>
+                <input type="date" name="date" id="date" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="fname"><b>Gender</b></label>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+            </div>
+            <br>
+            <div>
+                <label for="wme"><b>Whatsapp No</b></label>
+                <input type="text" name="wame" id="wme" pattern="[6789][0-9]{9}" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="mail"><b>E-mail Id</b></label>
+                <input type="email" name="mail">
+            </div>
+            <br>
+            <div>
+                <label for="file"><b>Photo</b></label>
+                <input type="file" name="photo" id="file">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="a.No"><b>Aadhar No</b></label>
+                <input type="text" name="aadhar" id="a.No" pattern="[0-9]{16}" title="enter your 16 digits aadhar no">
+            </div>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <td>
+                        Residentail Address Details
+                    </td>
+                </table>
+            </legend>
+            <br>
+            <div> <b>Applicant's Address</b>
+                <textarea name="aaddress"> </textarea>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <b>District</b>
+                <select name="district" id="dst">
+                    <option value="one">---Select---</option>
+                    <option value="two">Hyderabad</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <b>Mandal</b>
+                <select name="mandal" id="m">
+                    <option value="mandal">---Select---</option>
+                    <option value="mandal1">Hyderabad</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <b>Village</b>
+                <select name="village" id="v">
+                    <option value="mandal">---Select---</option>
+                    <option value="mandal1">Hyderabad</option>
+                </select>
+            </div>
+            <br> <br>
+            <div>
+                <label for="pc"><b>Pincode</b></label>
+                <input type="text" name="pincode" id="pc" pattern="[0-9]{6}">
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <!-- <input type="submit" name="" id=""> -->
+
+        <fieldset>
+            <legend>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <td>Pass Type Details</td>
+                </table>
+            </legend>
+            <br><br>
+            <div>
+                <b>City</b>
+                <select name="City">
+                    <option value="t0">---Select---</option>
+                    <option value="t1">Hyderabad</option>
+                </select>
+            </div>
+            <br><br>
+            <div>
+                <b>Pass Type</b>
+                <select name="passtype">
+                    <option value="pt0">---Select---</option>
+                    <option value="pt1">Greater Pass</option>
+                    <option value="pt2">General Ordinary Route Pass MTLY</option>
+                    <option value="pt3">General Metro Express Route Pass MTLY</option>
+                    <option value="pt4">Ordinary Pass</option>
+                    <option value="pt5">Metro Express Pass</option>
+                    <option value="pt6">Metro Deluxe Pass</option>
+                </select>
+            </div>
+        </fieldset> <br><br>
+        <fieldset>
+            <legend>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <td>
+                        Mode of Payment & Pass Collection
+                    </td>
+                </table>
+            </legend>
+            <br>
+            <br>
+            <b>Payment Mode</b>
+            <select name="paymentMode">
+                <option value="pm0">---Select---</option>
+                <option value="pm1"> Payment at Counter</option>
+            </select>
+            <br>
+            <br>
+            <b>Pass Delivery Mode</b>
+            <select name="passdeliveryMode">
+                <option value="pm0">---Select---</option>
+                <option value="pm1"> At Counter</option>
+            </select>
+            <br><br>
+            <b>Center at which <br>you want to Collect Pass</b>
+            <select name="pass center list">
+                <option value="c1">---Select---</option>
+                <option value="c2">RTC ABIDS--HYD</option>
+                <option value="c3">RTC AFZALGUNJ--HYD</option>
+                <option value="c4">RTC ARAMGHAR--HYD</option>
+                <option value="c5">RTC BALANAGAR--HYD</option>
+                <option value="c6">RTC BORABANDA--HYD</option>
+                <option value="c7">RTC CBS--HYD</option>
+                <option value="c8">RTC CHARMINAR--HYD</option>
+                <option value="c9">RTC DILSHUKNAGAR--HYD</option>
+                <option value="c10">RTC ECIL--HYD</option>
+                <option value="c11">RTC FAROOQNAGAR--HYD</option>
+                <option value="c12">RTC GHATKESAR--HYD</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <center><img src="./Captcha1.jpg" alt="captcha" width="250">
+            <br>
+            <input type="text" pattern="Td4eVa">
+            <input type="submit">
+        </center>
+    </form>
+</body>
+
+</html>
